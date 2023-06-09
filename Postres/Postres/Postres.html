@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postres</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #93716A;
+    }
+    header {
+      background-color: #55433F;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 50px;
+    }
+    main {
+      padding: 20px;
+    }
+    h2 {
+      margin-top: 0;
+	  font-size: 33px;
+    }
+    p {
+      margin-top: 0;
+	  font-size: 24px;
+	  text-align:  justify;
+    }
+    .precio {
+      font-weight: bold;
+    }
+    .postre {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .postre-imagen {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .postre-texto {
+      flex: 2;
+    }
+    .postre-imagen img {
+      max-width: 100%;
+      height: auto;
+    }
+    .postre-imagen.right {
+      order: 2;
+      margin-right: 0;
+      margin-left: 20px;
+    }
+    .postre-texto.right {
+      order: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Postres</h1>
+  </header>
+  <main>
+    <div class="postre">
+      <div class="postre-imagen">
+        <img src="tartademanzana.jpg" alt="Tarta de Manzana">
+      </div>
+      <div class="postre-texto">
+        <h2>Tarta de Manzana</h2>
+        <p>Una deliciosa tarta de manzana casera, con una base crujiente y relleno jugoso de manzanas frescas. Se sirve caliente con una bola de helado de vainilla. Precio: <span class="precio">Q30.78</span></p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <div class="postre-texto right">
+        <h2>Pastel de Chocolate</h2>
+        <p>Un pastel rico y decadente hecho con chocolate de alta calidad. Cada bocado es una explosión de sabor a chocolate. Se sirve con crema batida y salsa de chocolate caliente. Precio: <span class="precio">$25.30</span></p>
+      </div>
+      <div class="postre-imagen right">
+        <img src="pasteldechocolate.jpg" alt="Pastel de Chocolate">
+      </div>
+    </div>
+
+    <div class="postre">
+      <div class="postre-imagen">
+        <img src="heladodefresa.jpg" alt="Helado de Fresa">
+      </div>
+      <div class="postre-texto">
+        <h2>Helado de Fresa</h2>
+        <p>Un clásico favorito de verano, nuestro helado de fresa se hace con fresas frescas y cremosas. Se sirve en una copa con topping de chocolate y trozos de fresas frescas. Precio: <span class="precio">Q15.29</span></p>
+      </div>
+    </div>
+
+    <div class="postre">
+      <div class="postre-texto right">
+        <h2>Tiramisú</h2>
+        <p>Un postre italiano clásico hecho con capas de bizcocho empapado en café y crema de mascarpone. Decorado con cacao en polvo. Precio: <span class="precio">Q50.50</span></p>
+      </div>
+      <div class="postre-imagen right">
+        <img src="tiramisu.png" alt="Tiramisú">
+      </div>
+    </div>
+
+    <div class="postre">
+      <div class="postre-imagen">
+        <img src="flannapolitano.jpg" alt="Flan Napolitano">
+      </div>
+      <div class="postre-texto">
+        <h2>Flan Napolitano</h2>
+        <p>Una deliciosa y cremosa combinación de flan y caramelo.Preparado con una mezcla de leche condensada azucarada, leche evaporada, huevos y extracto de vainilla. Precio: <span class="precio">Q49.29</span></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
